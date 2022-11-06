@@ -5,12 +5,13 @@
             </div>
             <div class="panel-body" width="95%">
                 <form name="inserir_usuario" method="post">
+                    {$alerta}
                     <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon">
                                 Nome Completo &nbsp
                             </span>
-                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" required>
+                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" value="{$smarty.post.nome_completo}" required>
                         </div>
                     </div>
 
@@ -19,7 +20,7 @@
                             <span class="input-group-addon">
                                 Nome Usuário &nbsp &nbsp
                             </span>
-                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" required>
+                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" value="{$smarty.post.usuario}" required>
                         </div>
                     </div>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-02 17:26:35
+/* Smarty version 4.2.1, created on 2022-11-06 20:42:33
   from 'C:\xampp\htdocs\smarty\templates\inserir_usuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_63629a3bd78c30_46831350',
+  'unifunc' => 'content_63680e295bca07_60220644',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc77e64733ba6afd4f7bf193252030b48a7f7cab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\smarty\\templates\\inserir_usuario.tpl',
-      1 => 1667406394,
+      1 => 1667763746,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63629a3bd78c30_46831350 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63680e295bca07_60220644 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <div class="default col-md-9">
         <div class="panel panel-primary">
             <div class="panel panel-heading">
@@ -28,12 +28,15 @@ function content_63629a3bd78c30_46831350 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="panel-body" width="95%">
                 <form name="inserir_usuario" method="post">
+                    <?php echo $_smarty_tpl->tpl_vars['alerta']->value;?>
+
                     <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon">
                                 Nome Completo &nbsp
                             </span>
-                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" required>
+                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" value="<?php echo $_POST['nome_completo'];?>
+" required>
                         </div>
                     </div>
 
@@ -42,7 +45,8 @@ function content_63629a3bd78c30_46831350 (Smarty_Internal_Template $_smarty_tpl)
                             <span class="input-group-addon">
                                 Nome Usuário &nbsp &nbsp
                             </span>
-                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" required>
+                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" value="<?php echo $_POST['usuario'];?>
+" required>
                         </div>
                     </div>
 
