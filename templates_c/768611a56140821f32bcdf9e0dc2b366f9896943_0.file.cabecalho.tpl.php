@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-06 17:46:43
+/* Smarty version 4.2.1, created on 2022-11-29 20:12:31
   from 'C:\xampp\htdocs\controle_funcionarios\templates\cabecalho.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_63681d33102159_86718093',
+  'unifunc' => 'content_638691dfb90a61_88514541',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '768611a56140821f32bcdf9e0dc2b366f9896943' => 
     array (
       0 => 'C:\\xampp\\htdocs\\controle_funcionarios\\templates\\cabecalho.tpl',
-      1 => 1667767397,
+      1 => 1669763537,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63681d33102159_86718093 (Smarty_Internal_Template $_smarty_tpl) {
+function content_638691dfb90a61_88514541 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $_smarty_tpl->tpl_vars['titulo']->value;?>
 </title>
 
