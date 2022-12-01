@@ -14,7 +14,9 @@ $smarty->display('menu.tpl');
 
 if(isset($_GET['ac']) && $_GET['ac'] == 'inserir_usuario') {
     include('inserir_usuario.php');
-} else if(!isset($_SESSION['usuario'])) {
+} else if(isset($_GET['ac']) && $_GET['ac'] == 'editar_usuario') {
+    include('editar_usuario.php');
+}else if(!isset($_SESSION['usuario'])) {
     include("login.php");
 }
 

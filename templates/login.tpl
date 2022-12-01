@@ -4,8 +4,8 @@
             <center><b>Efetuar Login</b></center>
         </div>
         <div class="panel-body" width="95%">
-            <form name="inserir_usuario" method="post">
-                
+            <form name="loginu" method="post">
+                {$alerta}
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-addon">
@@ -25,8 +25,7 @@
                 </div>
                 
                 <center>
-                    <input type="submit" name="btn_inserir" value="Logar" class="btn btn-primary">
-                    <a href="index.php" class="btn btn-danger">&nbsp &nbsp Cancelar &nbsp &nbsp</a>
+                    <input type="submit" name="btn_login" value="Logar" class="btn btn-primary">
                 </center>
 
             </form>
