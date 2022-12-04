@@ -17,8 +17,8 @@
                     <td>{$tb_usuario.nome_completo}</td>
                     <td>{$tb_usuario.usuario}</td>
                     <td>
-                        <a href="editar_usuario.php?id={$tb_usuario.id_usuario}" class="btn btn-warning">Editar</a>
-                        <a href="excluir_usuario.php?id={$tb_usuario.id_usuario}" class="btn btn-danger">Excluir</a>
+                        <a href="index.php?ac=editar&id={$tb_usuario.id_usuario}" class="btn btn-warning">Editar</a>
+                        <a href="index.php?ac=excluir&id={$tb_usuario.id_usuario}" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>                              
                 {/foreach}
@@ -26,3 +26,11 @@
         </div>
     </div>
 </div>
+
+<!--
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#tb_usuario').DataTable();
+    });
+</script>
+-->

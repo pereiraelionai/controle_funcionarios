@@ -16,10 +16,11 @@ if(isset($_GET['ac']) && $_GET['ac'] == 'inserir_usuario') {
     include('inserir_usuario.php');
 } else if(isset($_GET['ac']) && $_GET['ac'] == 'editar_usuario') {
     include('editar_usuario.php');
+} else if(isset($_GET['ac']) && $_GET['ac'] == 'editar') {
+    include('editar.php');
 }else if(!isset($_SESSION['usuario'])) {
     include("login.php");
-}
-
+} 
 
 
 $smarty->display('rodape.tpl');

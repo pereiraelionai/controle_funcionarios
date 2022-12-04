@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-30 22:06:53
+/* Smarty version 4.2.1, created on 2022-12-03 22:46:30
   from 'C:\xampp\htdocs\controle_funcionarios\templates\editar_usuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6387fe2de181a4_64135362',
+  'unifunc' => 'content_638bfbf650c234_62909590',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b5c78db38f9f72cc1f8e2395daca7ff6f5efa957' => 
     array (
       0 => 'C:\\xampp\\htdocs\\controle_funcionarios\\templates\\editar_usuario.tpl',
-      1 => 1669856811,
+      1 => 1670118256,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6387fe2de181a4_64135362 (Smarty_Internal_Template $_smarty_tpl) {
+function content_638bfbf650c234_62909590 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-9">
     <div class="panel panel-primary">
         <div class="panel panel-heading">
@@ -48,9 +48,9 @@ $_smarty_tpl->tpl_vars['tb_usuario']->do_else = false;
                     <td><?php echo $_smarty_tpl->tpl_vars['tb_usuario']->value['usuario'];?>
 </td>
                     <td>
-                        <a href="editar_usuario.php?id=<?php echo $_smarty_tpl->tpl_vars['tb_usuario']->value['id_usuario'];?>
+                        <a href="index.php?ac=editar&id=<?php echo $_smarty_tpl->tpl_vars['tb_usuario']->value['id_usuario'];?>
 " class="btn btn-warning">Editar</a>
-                        <a href="editar_usuario.php?id=<?php echo $_smarty_tpl->tpl_vars['tb_usuario']->value['id_usuario'];?>
+                        <a href="index.php?ac=excluir&id=<?php echo $_smarty_tpl->tpl_vars['tb_usuario']->value['id_usuario'];?>
 " class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>                              
@@ -60,5 +60,15 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             </table>
         </div>
     </div>
-</div><?php }
+</div>
+
+<!--
+<?php echo '<script'; ?>
+ type="text/javascript">
+    $(document).ready(function() {
+        $('#tb_usuario').DataTable();
+    });
+<?php echo '</script'; ?>
+>
+--><?php }
 }

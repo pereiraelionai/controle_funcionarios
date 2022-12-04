@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-29 19:55:18
+/* Smarty version 4.2.1, created on 2022-12-03 22:46:25
   from 'C:\xampp\htdocs\controle_funcionarios\templates\inserir_usuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_63868dd65a0f76_56904088',
+  'unifunc' => 'content_638bfbf1513b20_75110046',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a6e851e10ea57c82547ef75c51a03fc2bb840f5d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\controle_funcionarios\\templates\\inserir_usuario.tpl',
-      1 => 1669762473,
+      1 => 1670118383,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63868dd65a0f76_56904088 (Smarty_Internal_Template $_smarty_tpl) {
+function content_638bfbf1513b20_75110046 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <div class="default col-md-9">
         <div class="panel panel-primary">
             <div class="panel panel-heading">
@@ -35,8 +35,7 @@ function content_63868dd65a0f76_56904088 (Smarty_Internal_Template $_smarty_tpl)
                             <span class="input-group-addon">
                                 Nome Completo &nbsp
                             </span>
-                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" value="<?php echo $_POST['nome_completo'];?>
-" required>
+                            <input class="form-control" type="text" name="nome_completo" id="nome_completo" placeholder="Insira seu nome completo" required>
                         </div>
                     </div>
 
@@ -45,8 +44,7 @@ function content_63868dd65a0f76_56904088 (Smarty_Internal_Template $_smarty_tpl)
                             <span class="input-group-addon">
                                 Nome Usuário &nbsp &nbsp
                             </span>
-                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" value="<?php echo $_POST['usuario'];?>
-" required>
+                            <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Insira o nome de usuário" required>
                         </div>
                     </div>
 
