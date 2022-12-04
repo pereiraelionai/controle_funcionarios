@@ -18,6 +18,12 @@ if(isset($_GET['ac']) && $_GET['ac'] == 'inserir_usuario') {
     include('editar_usuario.php');
 } else if(isset($_GET['ac']) && $_GET['ac'] == 'editar') {
     include('editar.php');
+}else if(isset($_GET['ac']) && $_GET['ac'] == 'excluir') {
+    include('excluir_usuario.php');
+} else if (isset($_GET['ac']) && $_GET['ac'] == 'excluir_usuario') {
+    include('excluir_usuario.php');
+}else if(isset($_GET['ac']) && $_GET['ac'] == 'rel_usuario') {
+    include('rel_usuario.php');
 }else if(!isset($_SESSION['usuario'])) {
     include("login.php");
 } 

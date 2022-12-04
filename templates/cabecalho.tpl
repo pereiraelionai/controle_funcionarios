@@ -22,7 +22,7 @@
 
     <div class="container" style="width: 90%;">
         <div class="row">
-            <div class="col-12 text-center mb-5">
+            <div class="col-12 text-center mb-5 para_imprimir">
                 <h1 class="display-4"><i class="fas fa-user-friends text-secondary"></i> Sistema de Gerenciamento</h1>
                 <p style="font-size: 20px;">Controle de funcionários</p>
             </div>

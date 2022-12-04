@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-12-03 21:55:10
+/* Smarty version 4.2.1, created on 2022-12-04 15:53:46
   from 'C:\xampp\htdocs\controle_funcionarios\templates\cabecalho.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_638befeede02a9_48505279',
+  'unifunc' => 'content_638cecba6b51c5_62502009',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '768611a56140821f32bcdf9e0dc2b366f9896943' => 
     array (
       0 => 'C:\\xampp\\htdocs\\controle_funcionarios\\templates\\cabecalho.tpl',
-      1 => 1670115294,
+      1 => 1670180007,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_638befeede02a9_48505279 (Smarty_Internal_Template $_smarty_tpl) {
+function content_638cecba6b51c5_62502009 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -56,7 +56,7 @@ function content_638befeede02a9_48505279 (Smarty_Internal_Template $_smarty_tpl)
 
     <div class="container" style="width: 90%;">
         <div class="row">
-            <div class="col-12 text-center mb-5">
+            <div class="col-12 text-center mb-5 para_imprimir">
                 <h1 class="display-4"><i class="fas fa-user-friends text-secondary"></i> Sistema de Gerenciamento</h1>
                 <p style="font-size: 20px;">Controle de funcionários</p>
             </div>
