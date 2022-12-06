@@ -13,6 +13,5 @@
             <a href="index.php?ac=inserir_funcionario" class="list-group-item">Inserir Funcionário</a>
             <a href="index.php?ac=editar_funcionario" class="list-group-item">Editar Funcionário</a>
             <a href="#" class="list-group-item">Relatório Funcionário</a>
-            <a href="#" class="list-group-item">Sair</a>
         </div>    
     </div>

@@ -41,7 +41,7 @@ if(isset($_GET['ac']) && $_GET['ac'] == 'inserir_usuario') {
 } else {
     ?>
         <div class="default col-md-9">
-            <img src="includes/img/login.jpeg" alt="50%">
+            <img src="includes/img/login.jpeg" width="100%">
         </div>
 
     <?php
