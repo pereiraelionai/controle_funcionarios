@@ -1,4 +1,4 @@
-# Sistema PHP + Smarty (SISTEMA AINDA NÃO FINALIZADO!!!)
+# Sistema PHP + Smarty
 Sistema web criado com PHP utilizando Smarty para gerenciamento dos templates.
 O sistema cria usuário e esses usuário podem criar e editar funcionário, além de emitir relatório com os funcionários.
 
